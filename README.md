@@ -13,14 +13,23 @@ make
 RTSSTEM only requires the sparse,noisy image and the correspoinding scanning mask (indicating scanned pixels).
 
 Parameters:
+
 -sparse_img: Input file of the sparse scanned image
+
 -sparse_mk: Input file of sparse scanning mask
+
 -wavelet: Specify wavelet type, example: db2
+
 -output: Output file of reconstructed image
+
 -Nr: Numer of rows of image
+
 -Nr: Numer of columns of image
+
 -nlevels: level of wavelet, usually 2,3,4
+
 -iter: iterations, default is 10
+
 -lambda: soft-thersholding value, default is 0.8
 
 For Example:
