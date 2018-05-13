@@ -1,14 +1,14 @@
-#RTSSTEM
+# RTSSTEM
 
 This is the sourcecode for the paper ["Compressive sensing on diverse STEM scans: real-time feedback, low-dose and dynamic range "]().
 
-##Install
+## Install
 
 Go to the RTSSTEM directory and simply 
 ```
 make
 ```
-##Usage
+## Usage
 
 RTSSTEM only requires the sparse,noisy image and the correspoinding scanning mask (indicating scanned pixels).
 
@@ -37,12 +37,12 @@ For Example:
 ./RTSSTEM -sparse_img Lissa_yspar.dat -sparse_mk Lissa_mask.dat -wavelet db2 -output
 Lissa_yrecon.txt -Nr 256 -Nc 256 -nlevels 4
 ```
-##Tested Environment
+## Tested Environment
 
 Ubuntu 16.04 LTS
 
 CUDA 8 with driver version 375.26
 
-##Acknowledgement
+## Acknowledgement
 
 The wavelet transfrom is based on the fantastic [PDWT](https://github.com/pierrepaleo/PDWT) package, written by [Pierre Paleo](http://www.pierrepaleo.com/)
