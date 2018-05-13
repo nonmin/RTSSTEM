@@ -7,6 +7,7 @@ Go to the RTSSTEM directory and simply
 make
 ```
 ##Usage
+
 RTSSTEM only requires the sparse,noisy image and the correspoinding scanning mask (indicating scanned pixels).
 
 Parameters:
@@ -26,8 +27,11 @@ For Example:
 Lissa_yrecon.txt -Nr 256 -Nc 256 -nlevels 4
 ```
 ##Tested Environment
+
 Ubuntu 16.04 LTS
+
 CUDA 8 with driver version 375.26
 
 ##Acknowledgement
+
 The wavelet transfrom is based on the fantastic [PDWT](https://github.com/pierrepaleo/PDWT) package, written by [Pierre Paleo](http://www.pierrepaleo.com/)
