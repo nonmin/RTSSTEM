@@ -32,10 +32,10 @@ Full Parameters:
 -lambda: soft-thersholding value, default is 0.8
 
 For example:
-
+```
 ./RTSSTEM -sparse_img Lissa_yspar.dat -sparse_mk Lissa_mask.dat -wavelet db2 -output
 Lissa_yrecon.txt -Nr 256 -Nc 256 -nlevels 4
-
+```
 ## Tested Environment
 
 Ubuntu 16.04 LTS
