@@ -23,7 +23,7 @@ Full Parameters:
 
 -Nr: Numer of rows of image
 
--Nr: Numer of columns of image
+-Nc: Numer of columns of image
 
 -nlevels: level of wavelet, usually 2,3,4
 
