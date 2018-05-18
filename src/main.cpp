@@ -1,6 +1,14 @@
 /// ****************************************************************************
-///  Xin Li 
+///  Soucecode for the paper
+///  "Compressive sensing on diverse STEM scans: real-time
+///  feedback, low-dose and dynamic range"
+///  Author: Xin Li 
 ///  lix3@ornl.gov
+///  
+///  Wavelet transform is based on the PDWT package, written by
+///  Pierre Paleo
+///  pierre.paleo@grenoble-inp.org 
+///  https://github.com/pierrepaleo/PDWT 
 /// ****************************************************************************
 
 #include <stdio.h>
@@ -37,7 +45,7 @@ int main(int argc, char **argv) {
         printf("-wavelet: Specify wavelet type, example: db2 \n");
         printf("-output: Output file of reconstructed image \n");
         printf("-Nr: Numer of rows of image \n");
-        printf("-Nr: Numer of columns of image \n");
+        printf("-Nc: Numer of columns of image \n");
         printf("-nlevels: level of wavelet, usually 2,3,4 \n");    
         printf("-iter: iterations, default is 10 \n");
         printf("-lambda: soft-thersholding value, default is 0.8 \n");
