@@ -5,6 +5,9 @@ This is the sourcecode for the paper [Compressive sensing on diverse STEM scans:
 Sparse scan on a real Microscope finished in 0.8 seconds
 ![Collected on a real Microscope in total 0.8 seconds](data/Spiral_sparse.png)
 
+Reconstruction in 0.008 seconds
+![recon](data/Spiral_recon.png)
+
 ## Install
 
 Simply
