@@ -2,7 +2,7 @@
 
 This is the sourcecode for the paper [Compressive sensing on diverse STEM scans: real-time feedback, low-dose and dynamic range](https://arxiv.org/abs/1805.04957)
 
-![Collected on a real Microscope in 0.8 seconds](data/Sparse_spiral.png)
+![Collected on a real Microscope in 0.8 seconds](data/Spiral_sparse.png)
 
 ## Install
 
